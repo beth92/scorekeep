@@ -1,0 +1,37 @@
+.item {
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
+  margin-bottom: 1.3rem;
+  padding: 1.3rem;
+}
+
+.item__message {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+}
+
+.item--position-1 {
+  background-color: $green;
+  border-color: $alt-green;
+}
+
+.item--position-2 {
+  background-color: $blue;
+  border-color: $alt-blue;
+}
+
+.item--position-3 {
+  background-color: $red;
+  border-color: $alt-red;
+}
+
+// BEM - Block Element Modifier
+// block = item
+// element = message
+// modifier eg:
+.item__message--empty {
+ color:  #999999;
+}
+// helpful for if we have multiple messages within our block and want to tack on styles to some of them
